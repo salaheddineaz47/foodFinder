@@ -1,6 +1,6 @@
 const RecipeCard = ({ recipe }) => {
   return (
-    <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:scale-105 transition-transform duration-300">
+    <div className="cursor-pointer  rounded-lg shadow-xl overflow-hidden hover:scale-105 transition-transform duration-300 bg-[#fdf2e9]">
       <img
         className="w-full h-48 object-cover"
         src={recipe.image}
