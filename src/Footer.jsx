@@ -3,7 +3,7 @@ import { GiMeal } from "react-icons/gi";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#eee] text-white py-12">
+    <footer className="bg-[#eee] text-white py-12 px-6">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
         {/* Logo and Social Links */}
         <div className="flex flex-col items-start space-y-4">
